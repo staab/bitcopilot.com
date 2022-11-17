@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+      <meta name="theme-color" content="#db4f0a">
+      <title>BitCopilot</Title>
+      <link rel="icon" href="/bitcoin.png">
+      <link href="https://fonts.googleapis.com/css?family=Sono&display=swap" rel="stylesheet" />
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+   </head>
+   <body>
+    <style type="text/css">
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(#783b37, #0c312f);
+        min-height: 100vh;
+      }
+
+      .background {
+        padding: 30px;
+      }
+
+      .card {
+        color: white;
+        text-shadow: 2px 0 4px black;
+        font-size: 1.2em;
+        line-height: 1.5em;
+        margin: 0 auto;
+        padding: 20px;
+        flex-grow: 1;
+        border-radius: 30px;
+        box-shadow: 0px 9px 30px -1px rgba(0,0,0,0.51);
+        background-image: linear-gradient(rgba(33, 30, 20, 0.2), rgba(33, 30, 20, 0.2)), url('/marek-piwnicki-U6WvLJU0l6o-unsplash.jpeg');
+        background-size: cover;
+        font-family: 'Roboto';
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+        max-width: 800px;
+        border: #5f3e2b 1px solid;
+      }
+
+      .card h1 {
+        font-family: 'Sono';
+        line-height: 1.7em;
+        text-align: center;
+        width: 100%;
+      }
+
+      .card a {
+        color: white;
+        text-decoration: none;
+      }
+
+      .book {
+        padding: 12px 18px;
+        border: white 1px solid;
+        border-radius: 30px;
+        font-family: 'Sono';
+        background-color: #cd492f;
+        transition: all 200ms;
+        transform: scale(1);
+      }
+
+      .book:hover {
+        transform: scale(1.05);
+      }
+
+      .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .rounded {
+        border-radius: 100%;
+      }
+
+      .section {
+        display: flex;
+        column-gap: 12px;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      .action {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+      }
+
+      small {
+        font-size: 0.5em;
+        line-height: 1.4em;
+      }
+
+      @media(min-width: 600px) {
+        .section {
+          flex-direction: row;
+        }
+      }
+    </style>
+     <div class="background">
+       <div class="card">
+         <div class="header">
+           <img src="/bitcoin.svg" width="100px" />
+         </div>
+         <div class="section">
+           <h1>Get help from a bitcoin expert.</h1>
+         </div>
+         <div class="section">
+           <img src="/staab.png" class="rounded" width="100px" height="100px" />
+           <p>
+             Jon Staab is a professional software developer with a passion for bitcoin.
+             He has spent hundreds of hours reading about bitcoin and playing with the
+             tech — from hardware wallets, to lightning channel management, he's seen it all.
+           </p>
+         </div>
+         <div class="section action">
+           <p>Click below to book a consultation. Grandmas and hackers welcome.</p>
+         </div>
+         <div class="section action">
+           <a class="book" href="https://calendly.com/bitcopilot/15min">BOOK AN APPOINTMENT</a>
+         </div>
+         <div class="section action">
+           <small>
+             Rates are $25 per 15 minute slot, satisfaction guaranteed. Not legal or financial advice.
+           </small>
+         </div>
+       </div>
+     </div>
+   </body>
+</html>
